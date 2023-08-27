@@ -1,0 +1,2 @@
+{"first":"Tomas","last":"Lokuj","phone":"999 999","email":"tomaslokuj","id":"100404"}
+{"first":"Markus","last":"Delma","phone":"88882","email":"fra@as.fr","id":"194"}

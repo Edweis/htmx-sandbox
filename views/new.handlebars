@@ -1,0 +1,25 @@
+<h2>Add a contact</h2>
+<form hx-post="/contacts/new" hx-target="body" >
+  <fieldset>
+    <legend>Contact Values</legend>
+    <p>
+      <label for="first">First</label>
+      <input value="{{contact.first}}" name="first" />
+    </p>
+    <p>
+      <label for="last">Last</label>
+      <input value="{{contact.last}}" name="last" />
+    </p>
+    <p>
+      <label for="phone">Phone</label>
+      <input value="{{contact.phone}}" name="phone" />
+    </p>
+    <p>
+      <label for="email">Email</label>
+      <input value="{{contact.email}}" name="email" type="emdail" />
+      <span class="error">{{ errors.email }}</span>
+    </p>
+    <input type="hidden" name="id" value="{{contact.id}}"/>
+    <p><button>Save</button></p>
+  </fieldset>
+</form> 
